@@ -1,7 +1,7 @@
-# JS-Detona-Ralph-Game
+<h1 align="center">Angular-PSN-store:</h1>
 
 ## 📲 View the project here
-<a href="https://devgustavus.github.io/JS-Detona-Ralph-Game/" target="_blank">https://devgustavus.github.io/JS-Detona-Ralph-Game/</a>
+<a href="https://devgustavus.github.io/JS-Detona-Ralph-Game/">https://devgustavus.github.io/JS-Detona-Ralph-Game/</a>
 
 ## 📖 About the project
 Project developed as part of a code/project challenge at DIO, as part of the BootCamp: "Potência Tech iFood - Game Development." The project's main objective was to build a small engine for a simple click-based game. Key factors in the project included the construction of standard functions based on a fixed model of operation (engine), which consisted of three main fields: actions, values, and views. The game's theme was inspired by Disney's "Wreck-It Ralph."
