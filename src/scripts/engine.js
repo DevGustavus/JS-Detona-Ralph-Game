@@ -87,7 +87,7 @@ function stopBackgroundMusic() {
 }
 
 function playBackgroundMusic(audioName, typeAudio, volume, loopChoice) {
-    let audio = new Audio(`/src/audios/${audioName}.${typeAudio}`);
+    let audio = new Audio(`./src/audios/${audioName}.${typeAudio}`);
     audio.volume = volume;
     audio.loop = loopChoice;
     state.values.bgMusic = audio;
@@ -95,7 +95,7 @@ function playBackgroundMusic(audioName, typeAudio, volume, loopChoice) {
 }
 
 function playSound(audioName, typeAudio, volume, loopChoice) {
-    let audio = new Audio(`/src/audios/${audioName}.${typeAudio}`);
+    let audio = new Audio(`./src/audios/${audioName}.${typeAudio}`);
     audio.volume = volume;
     audio.loop = loopChoice;
     audio.play();

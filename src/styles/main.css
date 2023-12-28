@@ -140,7 +140,7 @@
 }
 
 .enemy {
-    background-image: url("/src/images/ralph.png");
+    background-image: url("../images/ralph.png");
     background-size: cover;
 }
 
