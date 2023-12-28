@@ -1,4 +1,4 @@
-<h1 align="center">Angular-PSN-store:</h1>
+<h1 align="center">JS-Detona-Ralph-Game</h1>
 
 ## 📲 View the project here
 <a href="https://devgustavus.github.io/JS-Detona-Ralph-Game/">https://devgustavus.github.io/JS-Detona-Ralph-Game/</a>
