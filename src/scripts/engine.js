@@ -137,10 +137,11 @@ function handleSquareClick() {
         state.values.result++;
         state.view.score.textContent = state.values.result;
         state.values.hitPosition = null;
-        playSound("hit", "m4a", 0.05, false);
+        playSound("hit", "mp3", 0.5, false);
     } else {
         state.values.life--;
         state.view.life.textContent = "x" + state.values.life;
+        playSound("death", "mp3", 0.5, false);
         if (state.values.life <= 0) {
             gameOver();
         }

@@ -7,8 +7,8 @@
 }
 
 .modal {
-    width: 430px;
-    height: 550px;
+    width: 450px;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -20,6 +20,7 @@
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    margin-top: 1rem;
     z-index: 1000;
     transition: transform 0.2s ease-in-out;
 }
@@ -93,6 +94,7 @@
 .menu-time h2:nth-child(2),
 .menu-score h2:nth-child(2){
     margin-top: 1rem;
+    text-align: center;
 }
 
 .menu-lives {
@@ -105,7 +107,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .square {
@@ -115,9 +117,18 @@
     background-color: #7fffd4;
 }
 
-.square.enemy{
+.square:hover {
+    cursor: crosshair;
+    background-color: #beffe9;
+}
+
+.square.enemy {
     background-color: #32c594;
     animation: shake 0.5s infinite;
+}
+
+.square.enemy:hover {
+    background-color: #4fd5df;
 }
 
 @keyframes shake {
@@ -128,7 +139,32 @@
     100% { transform: translate(-2px, -2px) rotate(2deg); }
 }
 
-.enemy{
+.enemy {
     background-image: url("/src/images/ralph.png");
     background-size: cover;
+}
+
+@media screen and (max-width: 650px) {
+    .modal {
+        width: 100%;
+        
+    }
+
+    .square {
+        height: 125px;
+        width: 125px;
+    }
+
+    .menu-time h2,
+    .menu-score h2{
+        font-size: 0.8rem;
+    }
+
+    .menu-lives {
+        font-size: 0.6rem;
+    }
+
+    .menu-lives img{
+        width: 40px;
+    }
 }
